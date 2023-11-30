@@ -33,10 +33,10 @@ const Slogan = () => {
           </span>
         </section>
         <p className="text-white text-[16px] my-5 font-extralight">
-          As a frontend developer, I'm dedicated to crafting exceptional user
+          As a frontend developer, I&apos;m dedicated to crafting exceptional user
           experiences through responsive and visually appealing designs. In my
           portfolio, I showcase my work, providing direct access to the projects
-          I've undertaken.
+          I&apos;ve undertaken.
         </p>
         <button className="bg-black text-white text-[20px] px-5 w-fit py-1 rounded-3xl">
           Subscribe
