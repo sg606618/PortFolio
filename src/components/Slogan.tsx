@@ -12,7 +12,7 @@ const Slogan = () => {
           <div className="slightLine absolute w-20 h-[0.4rem] bg-black bottom-1"></div>
         </h1>
         <section className="text-[1.5rem] font-semibold text-white my-2 tracking-wide">
-          Let's Do This Together
+          Let&apos;s Do This Together
           <span className="ml-2 text-secondary font-bold tracking-wider">
             {/* <TypeAnimation
               sequence={[
