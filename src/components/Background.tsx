@@ -6,8 +6,10 @@ const Background = () => {
     <>
       <div className="absolute top-0 right-0 -z-20">
         <Image
-          src={"./images/ProfileImage.png"}
+          src={"/images/ProfileImage.png"}
           alt="profile image"
+          width={500}
+          height={500}
           className="saturate-100 grayscale-[20%] contrast-150 brightness-50"
         />
       </div>
