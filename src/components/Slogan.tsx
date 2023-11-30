@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { TypeAnimation } from "react-type-animation";
+// import { TypeAnimation } from "react-type-animation";
 
 const Slogan = () => {
   return (
@@ -14,7 +14,7 @@ const Slogan = () => {
         <section className="text-[1.5rem] font-semibold text-white my-2 tracking-wide">
           Let's Do This Together
           <span className="ml-2 text-secondary font-bold tracking-wider">
-            <TypeAnimation
+            {/* <TypeAnimation
               sequence={[
                 "EAT",
                 1000,
@@ -29,7 +29,7 @@ const Slogan = () => {
               speed={1}
               style={{ fontSize: "1.5rem", display: "inline-block" }}
               repeat={Infinity}
-            />
+            /> */}
           </span>
         </section>
         <p className="text-white text-[16px] my-5 font-extralight">
@@ -38,7 +38,9 @@ const Slogan = () => {
           portfolio, I showcase my work, providing direct access to the projects
           I've undertaken.
         </p>
-        <button className="bg-black text-white text-[20px] px-5 w-fit py-1 rounded-3xl">Subscribe</button>
+        <button className="bg-black text-white text-[20px] px-5 w-fit py-1 rounded-3xl">
+          Subscribe
+        </button>
       </div>
     </>
   );
