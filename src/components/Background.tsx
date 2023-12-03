@@ -4,7 +4,7 @@ import React from "react";
 const Background = () => {
   return (
     <>
-      <div className="absolute top-0 right-0 -z-20">
+      <div className="absolute top-0 -right-14 sm:right-0 -z-20">
         <Image
           src={"/images/ProfileImage.png"}
           alt="profile image"
