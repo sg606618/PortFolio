@@ -8,14 +8,14 @@ import Slogan from "@/components/Slogan";
 export default function Home() {
   return (
     <>
-      <div className="container mx-auto md:px-0 px-3 relative">
+      <div className="container mx-auto md:px-0 px-3 relative overflow-hidden">
         <header>
           <Header />
           <NavBar />
         </header>
         <main>
-          <Background />
           <Slogan />
+          <Background />
           <About />
         </main>
       </div>
