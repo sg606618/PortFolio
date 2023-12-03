@@ -14,8 +14,8 @@ export default function Home() {
           <NavBar />
         </header>
         <main>
-          <Slogan />
           <Background />
+          <Slogan />
           <About />
         </main>
       </div>

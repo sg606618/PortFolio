@@ -3,11 +3,11 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <div className="container items-center px-20 flex flex-col my-20 mb-40">
+      <div className="items-center sm:px-20 flex flex-col sm:my-20 mb-40">
         <h1 className="font-semibold tracking-widest text-white text-4xl uppercase">
           ABOUT
         </h1>
-        <p className="my-10 text-[20px] text-center text-light">
+        <p className="my-10 text-[20px] text-justify sm:text-center text-light">
           I am a results-driven software developer with a passion for creating
           robust and scalable solutions. With a strong foundation in programming
           languages such as PHP, Python, and JavaScript, I excel at designing
