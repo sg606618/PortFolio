@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-// import { TypeAnimation } from "react-type-animation";
+import Typewriter from "typewriter-effect";
 
 const Slogan = () => {
   return (
@@ -12,31 +12,24 @@ const Slogan = () => {
           <div className="slightLine absolute w-20 h-[0.4rem] bg-black -bottom-1 sm:bottom-1"></div>
         </h1>
         <section className="sm:text-[1.5rem] font-semibold text-white my-2 tracking-wide">
-          Let&apos;s Do This Together
-          <span className="ml-2 text-secondary font-bold tracking-wider">
-            {/* <TypeAnimation
-              sequence={[
-                "EAT",
-                1000,
-                "SLEEP",
-                1000,
-                "CODE",
-                1000,
-                "REPEAT",
-                1000,
-              ]}
-              wrapper="span"
-              speed={1}
-              style={{ fontSize: "1.5rem", display: "inline-block" }}
-              repeat={Infinity}
-            /> */}
+          <span className="flex w-fit items-center">
+            Let&apos;s Do This Together
+            <span className="ml-1 sm:ml-5 text-secondary w-fit font-bold tracking-widest text-[1rem] sm:text-[1.5rem] lg:text-[2rem]">
+              <Typewriter
+                options={{
+                  strings: ["Eat", "Sleep", "Code", "Repeat"],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </span>
           </span>
         </section>
         <p className="text-white tracking-wide text-[14px] sm:text-[16px] my-5 font-extralight">
-          As a frontend developer, I&apos;m dedicated to crafting exceptional user
-          experiences through responsive and visually appealing designs. In my
-          portfolio, I showcase my work, providing direct access to the projects
-          I&apos;ve undertaken.
+          As a frontend developer, I&apos;m dedicated to crafting exceptional
+          user experiences through responsive and visually appealing designs. In
+          my portfolio, I showcase my work, providing direct access to the
+          projects I&apos;ve undertaken.
         </p>
         <button className="bg-black text-white text-[20px] px-5 w-fit py-1 rounded-3xl">
           Subscribe
