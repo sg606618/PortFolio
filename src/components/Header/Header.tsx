@@ -8,14 +8,11 @@ import { LinkedIn } from "@mui/icons-material";
 
 const Header = () => {
   const profileIconLists = [
-    [<YouTubeIcon />, "https://www.youtube.com/@infinityweb11"],
-    [
-      <FacebookIcon />,
-      "https://www.facebook.com/profile.php?id=100010493134542",
-    ],
-    [<InstagramIcon />, "https://www.instagram.com/santosh.ghimire_/"],
-    [<LinkedIn />, "https://www.linkedin.com/in/santosh-ghimire-1a3b25193/"],
-    [<GitHubIcon />, "https://github.com/sg606618"],
+    ["https://www.youtube.com/@infinityweb11", <YouTubeIcon />],
+    ["https://www.facebook.com/profile.php?id=100010493134542", <FacebookIcon />],
+    ["https://www.instagram.com/santosh.ghimire_/", <InstagramIcon />],
+    ["https://www.linkedin.com/in/santosh-ghimire-1a3b25193/", <LinkedIn />],
+    ["https://github.com/sg606618", <GitHubIcon />],
   ];
 
   return (
@@ -28,7 +25,7 @@ const Header = () => {
           PortFolio
         </Link>
         <ul className="flex justify-around min-w-[10rem] sm:w-[20%] text-light">
-          {profileIconLists.map(([icon, url], index) => (
+          {profileIconLists.map(([url, icon], index) => (
             <>
               <Link target="_blank" href={url}>
                 <li className="cursor-pointer">{icon}</li>
