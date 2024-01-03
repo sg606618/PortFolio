@@ -7,13 +7,6 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import { LinkedIn } from "@mui/icons-material";
 
 const Header = () => {
-  const profileIconLists = [
-    ["https://www.youtube.com/@infinityweb11", <YouTubeIcon />],
-    ["https://www.facebook.com/profile.php?id=100010493134542", <FacebookIcon />],
-    ["https://www.instagram.com/santosh.ghimire_/", <InstagramIcon />],
-    ["https://www.linkedin.com/in/santosh-ghimire-1a3b25193/", <LinkedIn />],
-    ["https://github.com/sg606618", <GitHubIcon />],
-  ];
 
   return (
     <>
@@ -25,13 +18,21 @@ const Header = () => {
           PortFolio
         </Link>
         <ul className="flex justify-around min-w-[10rem] sm:w-[20%] text-light">
-          {profileIconLists.map(([url, icon], index) => (
-            <>
-              <Link target="_blank" href={url}>
-                <li className="cursor-pointer">{icon}</li>
-              </Link>
-            </>
-          ))}
+          <Link target="_blank" href="https://www.youtube.com/@infinityweb11">
+            <li className="cursor-pointer"><YouTubeIcon /></li>
+          </Link>
+          <Link target="_blank" href="https://www.facebook.com/profile.php?id=100010493134542">
+            <li className="cursor-pointer"><FacebookIcon /></li>
+          </Link>
+          <Link target="_blank" href="https://www.instagram.com/santosh.ghimire_/">
+            <li className="cursor-pointer"><InstagramIcon /></li>
+          </Link>
+          <Link target="_blank" href="https://www.linkedin.com/in/santosh-ghimire-1a3b25193/">
+            <li className="cursor-pointer"><LinkedIn /></li>
+          </Link>
+          <Link target="_blank" href="https://github.com/sg606618">
+            <li className="cursor-pointer"><GitHubIcon /></li>
+          </Link>
         </ul>
       </header>
     </>
